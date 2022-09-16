@@ -1,0 +1,156 @@
+* {
+    font-family: 'Raleway', sans-serif;;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVIGATION*/
+.nav {
+    background-color: #cdb593;
+}
+
+.nav_responsive-ul {
+    display: none;
+}
+
+.nav_li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav_li a {
+    color: #a63b27;
+    text-decoration: none;
+}
+
+.nav_li i{
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.nav_li:hover a{
+    color: #f6f4fb;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav_ul{
+        display: none;
+    }
+
+    .nav_responsive-ul {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav_responsive-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+/*SHOWCASE*/
+.showcase {
+    width: 100%;
+    height: 700px;
+    background: url(img/icon.jpg) no-repeat center center/cover;
+}
+
+/*PRODUCTOS*/
+.products_title {
+    color: #a63b27;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.products_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.products_grid {
+    width: 200px;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.products_grid:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+.products_grid-img {
+    width: 100%;
+    height: 80%;
+    border-radius: 5%;
+}
+.products_grid-title {
+    text-align: center;
+    margin-top: 5px;
+    color: #a63b27;
+}
+
+.products_grid-price {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #cdb593;
+}
+
+.footer_lists {
+    display: flex;
+}
+
+.footer_link-list {
+    color: #a63b27;
+    margin: 20px;
+    flex-grow: 1;
+}
+
+.footer_link-list a {
+    color: #a63b27;
+    text-decoration: none;
+}
+
+.footer_link-list-links {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.footer_link-list-links a {
+    margin-left: 5px;
+}
+
+.footer_link-list-links li {
+    margin: 5px;
+}
+
+.footer_legal {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: #122426;
+    font-size: 12px;
+    color: #f6f4fb;
+}
+
+.footer_legal-texts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
