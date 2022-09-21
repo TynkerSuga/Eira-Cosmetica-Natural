@@ -5,18 +5,18 @@
     <title>Eira | Cosmética Natural</title>
     <link rel='stylesheet' type='text/css' href='main.css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="background">
-        <img src="img/showcase.jpg" alt="" class="background">
-    </div>
     <div class="nav">
         <div class="NavLogo">
             <img src="img/eira-icon.png" alt="">
         </div>
         <div class="navList">
             <div class="navElement"><a href="#">INICIO</a></div>
-            <div class="navElement"><a href="#">¿QUIENES SOMOS?</a></div>
+            <div class="navElement"><a href="#">¿QUIÉNES SOMOS?</a></div>
             <div class="navElement"><a href="#">NUESTROS PRODUCTOS</a></div>
             <div class="navElement"><a href="#">CARRITO</a></div>
         </div>
@@ -25,10 +25,10 @@
         <div class="infoContainer">
             <div class="infoContent">
                 <div class="infoTitle"><h2>EIRA COSMÉTICA NATURAL</h2></div>
-                <div class="infoText">
-                    <h3>Vegan</h3>
-                    <h3>Cruelty Free</h3>
-                    <h3>Córdoba Capital</h3>
+                <div class="infoTexts">
+                    <p class="infoText">Vegan</p>
+                    <p class="infoText">Cruelty Free</p>
+                    <p class="infoText">Córdoba Capital</p>
                 </div>
             </div>
             <img src="img/icon.jpg" alt="">
@@ -37,10 +37,85 @@
     <div class="layer2">
         <div class="layer2Bg">
             <div class="layer2Title"><h2>¿QUIÉNES SOMOS?</h2></div>
-            <div class="layer2Text"><p>¡Holaa! Somos Sile y Vicky, juntas creamos este emprendimiento de cosmética natural con el objetivo de crear más consciencia y de sumar al cuidado del medio ambiente y al de tu piel.
-
-                Esperamos que te guste...</p></div>
+            <div class="layer2Text">
+                <p>¡Holaa! Somos Sile y Vicky, juntas creamos este emprendimiento de cosmética natural con el objetivo de crear más consciencia y de sumar al cuidado del medio ambiente y al de tu piel.</p>
+                <p>Esperamos que te guste.</p></div>
         </div>
     </div>
+    <div class="products">
+        <h2 class="productsTitle">NUESTROS PRODUCTOS</h2>
+        <button class="preBtn"><img src="img/arrowLeft.png" alt=""></button>
+        <button class="nxtBtn"><img src="img/arrowRight.png" alt=""></button>
+        <div class="productsContainer">
+            <div class="productCard">
+                <div class="productImage">
+                    <img src="img/Aceite de Coco.jpg" class="product" alt="" >
+                    <button class="cardBtn">Agregar al carrito</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productBrand">Aceite de Coco</h2>
+                    <p class="productDescription">Pequeña descripción del producto.</p>
+                    <span class="productPrice">$100</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <img src="img/Agua de Rosas.jpg" class="product" alt="" >
+                    <button class="cardBtn">Agregar al carrito</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productBrand">Agua de Rosas</h2>
+                    <p class="productDescription">Pequeña descripción del producto.</p>
+                    <span class="productPrice">$100</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <img src="img/Agua Micelar.jpg" class="product" alt="" >
+                    <button class="cardBtn">Agregar al carrito</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productBrand">Agua Micelar</h2>
+                    <p class="productDescription">Pequeña descripción del producto.</p>
+                    <span class="productPrice">$100</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <img src="img/Arcilla Blanca.jpg" class="product" alt="" >
+                    <button class="cardBtn">Agregar al carrito</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productBrand">Arcilla Blanca</h2>
+                    <p class="productDescription">Pequeña descripción del producto.</p>
+                    <span class="productPrice">$100</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <img src="img/Arcilla Roja.jpg" class="product" alt="" >
+                    <button class="cardBtn">Agregar al carrito</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productBrand">Arcilla Roja</h2>
+                    <p class="productDescription">Pequeña descripción del producto.</p>
+                    <span class="productPrice">$100</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <img src="img/Arcilla Verde.jpg" class="product" alt="" >
+                    <button class="cardBtn">Agregar al carrito</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productBrand">Arcilla Verde</h2>
+                    <p class="productDescription">Pequeña descripción del producto.</p>
+                    <span class="productPrice">$100</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
