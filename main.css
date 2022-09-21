@@ -300,3 +300,65 @@ padding-bottom: 5px;
     grid-column: span 2;
     margin-bottom: 10px;
 }
+
+.footer {
+    bottom: 0;
+}
+
+.footerContainer {
+    background: rgb(173, 173, 173);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerTitle {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+.footerCards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0 80px;
+}
+
+.footerCard {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerCard a {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.footerCard p {
+    text-transform: uppercase;
+}
+
+.footerCopyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    height: 30px;
+}
+
+.footerCopyrightText {
+    color: white;
+}
+
+.footerCopyrightText a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
